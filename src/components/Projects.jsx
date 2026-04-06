@@ -2,10 +2,21 @@ import "../Styles/Projects.css";
 import tictactoe from "../assets/tictactoe8090.png";
 import calculator from "../assets/calculator8090.png";
 import portfolio from "../assets/project1.png";
+import finance from "../assets/finance-dashboard.png"
 
 const projectsData = [
   {
     id: 1,
+    title: "Finance Dashboard (Full Stack)",
+    description:
+      "Full stack finance dashboard to manage financial data and transactions. Developed REST APIs using Node.js and Express. Created responsive and clean UI using Tailwind CSS",
+    image: finance,
+    tech: ["Tailwind CSS", "Node.js", "Express", "PostgreSQL", "React", "JWT"],
+    github: "https://github.com/himanshu928/Finance-Dashboard",
+    live: "https://calulator8090.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Portfolio Website",
     description:
       "Personal portfolio website built using HTML, CSS, and React. Showcases my projects and skills. It is responsive and visually appealing. and easy to navigate.",
@@ -15,7 +26,7 @@ const projectsData = [
     live: "https://portfolio8090.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Tic Tac Toe Game",
     description:
       "A classic Tic Tac Toe game built with HTML, CSS, and JavaScript.",
@@ -25,7 +36,7 @@ const projectsData = [
     live: "https://tictactoe8090.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Calculator App",
     description:
       "A simple calculator application built with HTML, CSS & JavaScript. It performs basic arithmetic operations.",
@@ -34,6 +45,7 @@ const projectsData = [
     github: "https://github.com/himanshu928/Calculator-Project",
     live: "https://calulator8090.netlify.app/",
   },
+ 
 ];
 
 const Projects = ({ project }) => {

@@ -6,6 +6,13 @@ const skills = [
   { name: "JavaScript", level: "Intermediate" },
   { name: "React", level: "Intermediate" },
   { name: "Git & GitHub", level: "Intermediate" },
+  {name: "Taiwind CSS", level: "Intermediate"},
+  {name: "Node JS", level: "Intermediate"},
+  {name: "Express JS", level: "Beginner"},
+  {name: "PostgreSQL", level: "Intermediate"},
+  {name: "JWT Authentication", level: "Beginner"},
+  {name: "VS Code", level: "Intermediate"},
+  {name: "Vercel", level: "Intermediate"},
 ];
 
 const Skills = () => {

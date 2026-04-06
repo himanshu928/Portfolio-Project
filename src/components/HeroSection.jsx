@@ -9,11 +9,14 @@ function HeroSection() {
           Hi, I'm <span>Himanshu Sahu</span>
         </h1>
 
-        <h2>Frontend Developer (React)</h2>
+        <h2>Full Stack Developer (MERN)</h2>
 
         <p className="hero-description">
-          I build clean, responsive and user-friendly web interfaces
-          using modern frontend technologies.
+        Hello, I am a Full Stack Developer who loves building modern web applications.
+I work with React, Tailwind CSS, Node.js, Express.js, and PostgreSQL to create responsive and scalable applications.
+
+I am passionate about learning new technologies and building real-world projects that solve problems and improve user experience.
+Currently, I am looking for opportunities to start my career as a Full Stack Developer.
         </p>
 
         <div className="hero-buttons">

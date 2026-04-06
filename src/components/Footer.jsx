@@ -9,7 +9,7 @@ function Footer() {
     <!-- Left --> */}
     <div className="footer-left">
       <h3>Himanshu Sahu</h3>
-      <p>Front-End Developer | Building clean & responsive websites</p>
+      <p>Full Stack Developer | Building clean & responsive websites</p>
     </div>
 
     {/* <!-- Center --> */}

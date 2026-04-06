@@ -65,7 +65,11 @@
   margin-bottom: 12px;
 }
 
-.tech-stack span {
+.tech-stack { 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  span {
   background: #a00481;
   padding: 8px 12px;
   border-radius: 20px;
@@ -74,6 +78,8 @@
   color: #f3f0f1;
   font-weight: bold;
   letter-spacing: 1.5px;
+  
+}
 }
 
 .project-links {
