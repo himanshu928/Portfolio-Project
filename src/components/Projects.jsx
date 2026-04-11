@@ -13,7 +13,7 @@ const projectsData = [
     image: finance,
     tech: ["Tailwind CSS", "Node.js", "Express", "PostgreSQL", "React", "JWT"],
     github: "https://github.com/himanshu928/Finance-Dashboard",
-    live: "https://calulator8090.netlify.app/",
+    live: "",
   },
   {
     id: 2,

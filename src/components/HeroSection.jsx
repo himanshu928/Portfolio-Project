@@ -12,11 +12,13 @@ function HeroSection() {
         <h2>Full Stack Developer (MERN)</h2>
 
         <p className="hero-description">
-        Hello, I am a Full Stack Developer who loves building modern web applications.
-I work with React, Tailwind CSS, Node.js, Express.js, and PostgreSQL to create responsive and scalable applications.
-
-I am passionate about learning new technologies and building real-world projects that solve problems and improve user experience.
-Currently, I am looking for opportunities to start my career as a Full Stack Developer.
+          Hello, I am a Full Stack Developer who loves building modern web
+          applications. I work with React, Tailwind CSS, Node.js, Express.js,
+          and PostgreSQL to create responsive and scalable applications. I am
+          passionate about learning new technologies and building real-world
+          projects that solve problems and improve user experience. Currently, I
+          am looking for opportunities to start my career as a Full Stack
+          Developer.
         </p>
 
         <div className="hero-buttons">
@@ -26,16 +28,22 @@ Currently, I am looking for opportunities to start my career as a Full Stack Dev
           <a href="#contact" className="btn secondary">
             Contact Me
           </a>
+          <a
+            href="https://drive.google.com/drive/u/0/folders/1OleDymUxWtsyvVA6UErkRWz9FRpC0hSR"
+            target="_blank"
+            className="btn primary"
+          >
+            View Resume
+          </a>
         </div>
       </div>
-        <div className="hero-right">
-          <div className="hero-image">
-            <img src={img} alt="Hero Image" loading="lazy" />
-          </div>
+      <div className="hero-right">
+        <div className="hero-image">
+          <img src={img} alt="Hero Image" loading="lazy" />
         </div>
+      </div>
     </section>
   );
 }
 
 export default HeroSection;
-
