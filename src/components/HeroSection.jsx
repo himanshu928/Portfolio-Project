@@ -1,5 +1,5 @@
 import "../Styles/HeroSection.css";
-import img from "../assets/myPic.jpg";
+import img from "../assets/mypic2.png";
 
 function HeroSection() {
   return (
